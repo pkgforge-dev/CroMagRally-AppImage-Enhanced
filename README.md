@@ -1,10 +1,10 @@
 <div align="center">
 
-# CroMagRally-AppImage 🐧
+# CroMagRally-AppImage-Enhanced 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/CroMagRally-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/CroMagRally-AppImage/releases/latest)
-[![CI Build Status](https://github.com//pkgforge-dev/CroMagRally-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/CroMagRally-AppImage/releases/latest)
-[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/CroMagRally-AppImage)](https://github.com/pkgforge-dev/CroMagRally-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/CroMagRally-AppImage-Enhanced/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/CroMagRally-AppImage-Enhanced/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/CroMagRally-AppImage-Enhanced/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/CroMagRally-AppImage-Enhanced/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/CroMagRally-AppImage-Enhanced)](https://github.com/pkgforge-dev/CroMagRally-AppImage-Enhanced/releases/latest)
 
 <p align="center">
   <img src="https://github.com/jorio/CroMagRally/blob/master/packaging/io.jor.cromagrally.png" width="128" />
@@ -13,13 +13,15 @@
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/CroMagRally-AppImage/releases/latest) | [Click here](https://github.com/jorio/CroMagRally) |
+| [Click here](https://github.com/pkgforge-dev/CroMagRally-AppImage-Enhanced/releases/latest) | [Click here](https://github.com/jorio/CroMagRally) |
 
 </div>
 
+## ⚠️ Wayland is disabled by default due to issues with SDL ⚠️
+
 ---
 
-AppImage made using [sharun](https://github.com/VHSgunzo/sharun) and its wrapper [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it extremely easy to turn any binary into a portable package reliably without using containers or similar tricks. 
+AppImage made using [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it extremely easy to turn any binary into a portable package reliably without using containers or similar tricks. 
 
 **This AppImage bundles everything and it should work on any Linux distro, including old and musl-based ones.**
 

@@ -23,8 +23,8 @@ get-debloated-pkgs --add-common --prefer-nano libdecor-mini
 echo "Building stable version of CroMagRally..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/jorio/CroMagRally"
-VERSION="$(git ls-remote --tags --refs --sort="v:refname" "$REPO" | sed 's|.*refs/tags/||' | grep -E '^v?[0-9]+(\.[0-9]+)*$' | tail -n1 | sed 's/^v//')"
-git clone --depth 1 --branch v"$VERSION" "$REPO" ./CroMagRally
+VERSION="$(git ls-remote --tags --refs --sort="v:refname" "$REPO" | awk -F'/' '{print $NF}' | grep -E '^[0-9]+(\.[0-9]+)*$' | tail -n1)"
+git clone --depth 1 --branch "$VERSION" "$REPO" ./CroMagRally
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
